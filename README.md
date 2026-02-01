@@ -71,11 +71,9 @@ pip install -r requirements.txt
 
 # 4. Run the server
 python -m uvicorn app.main:app --reload --port 8000
-```
 
 # 5. Run Tests
 python -m pytest tests
-```
 
 # 6. Get Test Coverage
 python -m pytest --cov=app --cov-report=term-missing tests
