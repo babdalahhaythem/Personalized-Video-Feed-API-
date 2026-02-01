@@ -79,6 +79,9 @@ python -m pytest tests
 python -m pytest --cov=app --cov-report=term-missing tests
 ```
 
+## System design
+The System Design Report (architecture, data model, APIs, rollout & trade-offs) under the /docs folder
+
 ## API Endpoints
 
 ### GET /v1/feed
