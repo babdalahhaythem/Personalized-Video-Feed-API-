@@ -58,8 +58,8 @@ A production-grade FastAPI prototype demonstrating rule-based video feed persona
 ## Quick Start
 
 ```bash
-# 1. Navigate to prototype directory
-cd prototype
+# 1. Navigate to Personalized-Video-Feed-API directory
+cd Personalized-Video-Feed-API-
 
 # 2. Create virtual environment
 python -m venv venv
@@ -71,6 +71,12 @@ pip install -r requirements.txt
 
 # 4. Run the server
 python -m uvicorn app.main:app --reload --port 8000
+
+# 5. Run Tests
+python -m pytest tests
+
+# 6. Get Test Coverage
+python -m pytest --cov=app --cov-report=term-missing tests
 ```
 
 ## API Endpoints
